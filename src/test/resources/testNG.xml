@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PizzaHutTestSuite">
+<parameter name="url" value="https://www.pizzahut.co.in/"/>
+    <test name="pizzaHutTests">  
+        <classes>
+            <class name="PizzaHutTestNGimplementaion.PizzaHutTest"/>
+        </classes>
+    </test>
+</suite>
