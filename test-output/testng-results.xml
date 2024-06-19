@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T06:31:50 UTC" name="Default suite" finished-at="2024-06-19T06:32:03 UTC" duration-ms="12858">
+  <suite started-at="2024-06-19T13:11:44 UTC" name="Default suite" finished-at="2024-06-19T13:12:04 UTC" duration-ms="19634">
     <groups>
     </groups>
-    <test started-at="2024-06-19T06:31:50 UTC" name="Default test" finished-at="2024-06-19T06:32:03 UTC" duration-ms="12858">
+    <test started-at="2024-06-19T13:11:44 UTC" name="Default test" finished-at="2024-06-19T13:12:04 UTC" duration-ms="19634">
       <class name="PizzaHutTestNGimplementation.pizzaHutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:31:41 UTC" name="setUp" finished-at="2024-06-19T06:31:50 UTC" duration-ms="8866" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:38 UTC" name="setUp" finished-at="2024-06-19T13:11:44 UTC" duration-ms="5778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setLocation()[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:31:50 UTC" name="setLocation" finished-at="2024-06-19T06:31:51 UTC" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="setLocation()[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:44 UTC" name="setLocation" finished-at="2024-06-19T13:11:46 UTC" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method signature="setLocation()[pri:1, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:31:51 UTC" name="setLocation" finished-at="2024-06-19T06:32:01 UTC" duration-ms="10159" status="PASS">
+        <test-method signature="setLocation()[pri:1, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:46 UTC" name="setLocation" finished-at="2024-06-19T13:11:56 UTC" duration-ms="10273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLocation -->
-        <test-method signature="validateDealPage()[pri:2, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:32:01 UTC" name="validateDealPage" finished-at="2024-06-19T06:32:01 UTC" duration-ms="9" status="PASS">
+        <test-method signature="validateDealPage()[pri:2, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:56 UTC" name="validateDealPage" finished-at="2024-06-19T13:11:56 UTC" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDealPage -->
-        <test-method signature="addSidesItem()[pri:3, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:32:01 UTC" name="addSidesItem" finished-at="2024-06-19T06:32:01 UTC" duration-ms="8" status="PASS">
+        <test-method signature="addSidesItem()[pri:3, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:56 UTC" name="addSidesItem" finished-at="2024-06-19T13:11:57 UTC" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSidesItem -->
-        <test-method signature="addDrinkItem()[pri:4, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:32:01 UTC" name="addDrinkItem" finished-at="2024-06-19T06:32:02 UTC" duration-ms="752" status="PASS">
+        <test-method signature="addDrinkItem()[pri:4, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:57 UTC" name="addDrinkItem" finished-at="2024-06-19T13:11:59 UTC" duration-ms="2148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addDrinkItem -->
-        <test-method signature="checkoutProcess()[pri:5, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:32:02 UTC" name="checkoutProcess" finished-at="2024-06-19T06:32:02 UTC" duration-ms="6" status="PASS">
+        <test-method signature="checkoutProcess()[pri:5, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:11:59 UTC" name="checkoutProcess" finished-at="2024-06-19T13:12:03 UTC" duration-ms="3842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutProcess -->
-        <test-method is-config="true" signature="processClose()[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6759f091]" started-at="2024-06-19T06:32:02 UTC" name="processClose" finished-at="2024-06-19T06:32:03 UTC" duration-ms="1244" status="PASS">
+        <test-method is-config="true" signature="processClose()[pri:0, instance:PizzaHutTestNGimplementation.pizzaHutTest@6440112d]" started-at="2024-06-19T13:12:03 UTC" name="processClose" finished-at="2024-06-19T13:12:04 UTC" duration-ms="906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processClose -->
