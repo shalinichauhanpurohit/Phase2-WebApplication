@@ -63,7 +63,7 @@ public class pizzaHutTest extends BaseTest{
 			locationSel.click();
 			//WebElement locationSet = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class=text-left pl-15 py-10 border-t border-l-0 border-r-0 border-b-0 border-grey-lightest border-solid suggestion-item']")));
 		    //locationSet.click();
-			WebElement finalLocation = driver.findElement(By.xpath("(//p[@data-synth='hut-option-name-distance']"));
+			WebElement finalLocation = driver.findElement(By.xpath("(//p[@data-synth='hut-option-name-distance'])[3]"));
 			finalLocation.click();
 			
 			test.pass("Location set");
@@ -84,9 +84,7 @@ public class pizzaHutTest extends BaseTest{
 			
 		//The user is now on the Deals page. Validate that the URL has text as ‘deals’
 			String currentUrl = driver.getCurrentUrl();
-			System.out.println("Current URL is "+ currentUrl);
 			assert currentUrl.contains("deals");
-			
 			test.pass("URL contain the word deals.");
 			System.out.println("Inside 2nd Pass Method.");
 		}
@@ -218,7 +216,7 @@ public class pizzaHutTest extends BaseTest{
 	
 	 @AfterClass
 	    public void processClose() {
-	       // driver.quit();
+	        driver.quit();
 	        test.pass("Driver session quit");
 	        System.out.println("Inside Final Method.");
 	        extent.flush();
